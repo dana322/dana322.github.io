@@ -1,8 +1,8 @@
 export default {
     '/base/os': baseOs(),
     '/base/designPatterns/': baseDesignPatterns(),
-    'other': other(),
-    'tech': tech()
+    '/other/': other(),
+    '/tech/': tech()
 }
 
 
@@ -35,7 +35,8 @@ function other() {
             items: [
                 { text: '前言', link: '/other/index.md'},
                 { text: 'markdown测试', link: '/other/markdown测试.md'},
-                { text: 'Todo', link: '/other/关于blog的优化.md'}
+                { text: 'Todo', link: '/other/关于blog的优化.md'},
+                { text: 'blog初步建成，想说的一些话', link: '/other/blog初步建成.md'}
             ]
         },
     ]
