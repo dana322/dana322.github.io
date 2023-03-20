@@ -10,11 +10,11 @@ export default defineConfig({
   description: "技术分享 & 生活记录",
   lastUpdated: true,
   appearance: true,
-  head: [["link", { rel: "icon", href: "/favicon.ico/" }]], 
+  head: [["link", { rel: "icon", href: "/favicon.ico", type: 'image/png'  }]], 
   themeConfig: {
     nav,
     sidebar,
-    logo: '/blackcat.png/',
+    logo: '/blackcat.png',
     outline: 2,
     docFooter: {
       prev: "上一页",
