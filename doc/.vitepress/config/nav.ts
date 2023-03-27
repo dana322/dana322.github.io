@@ -11,6 +11,12 @@ export default [
     { text: '前端', link: '/tech/'},
     // { text: '经验',link: '/summary/'},
     // { text: '阅读', link: '/read/'},
-    // { text: '生活', link: '/life/'},
+    { 
+        text: '生活', 
+        items: [
+          {text: '周记', link: '/life/weekly/'}
+        ]
+
+    },
     {text: 'other', link: '/other/'}
 ]

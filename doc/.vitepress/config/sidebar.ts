@@ -1,8 +1,9 @@
 export default {
-    '/base/os': baseOs(),
+    '/base/os/': baseOs(),
     '/base/designPatterns/': baseDesignPatterns(),
     '/other/': other(),
-    '/tech/': tech()
+    '/tech/': tech(),
+    '/life/weekly/': lifeWeekly()
 }
 
 
@@ -49,6 +50,18 @@ function tech() {
             test: '前端',
             items: [
                 { text: '前言', link: '/tech/index.md'},
+            ]
+        },
+    ]
+}
+
+function lifeWeekly() {
+    return [
+        {
+            test: '周记',
+            items: [
+                { text: '前言', link: '/life/weekly/index.md'},
+                { text: '2023年第12周', link: '/life/weekly/2023w12.md'},
             ]
         },
     ]
